@@ -82,3 +82,11 @@ supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart filebeat
 supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart agent
 
 supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart task
+
+官方最新公告
+
+尊敬的cdnfly用户:
+
+目前发现登录安全漏洞，需要及时按照如下方法来临时修复。找一个只有你知道的域名,这个域名用于管理员登录。
+
+路径为:系统管理--->系统设置--->用户相关，限制管理员只能从此域名登录
