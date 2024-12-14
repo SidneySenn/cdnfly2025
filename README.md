@@ -50,7 +50,13 @@ supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart filebeat<br />
 supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart agent<br />
 supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart task</code></pre>
 
+<p>Cdnfly监控设置<br />
+尊敬的cdnfly用户:<br />
+为防止重启节点，Nginx服务启动不起来，可以在节点Tcp监控设置里面把主IP的监控端口设置为5000<br />
+节点管理-点击tcp-更多HTTP设置-端口：5000
+
 <p>官方最新公告<br />
 尊敬的cdnfly用户:<br />
 目前发现登录安全漏洞，需要及时按照如下方法来临时修复。找一个只有你知道的域名,这个域名用于管理员登录。<br />
 路径为:系统管理--->系统设置--->用户相关，限制管理员只能从此域名登录</p>
+
