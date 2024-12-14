@@ -50,6 +50,13 @@ supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart filebeat<br />
 supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart agent<br />
 supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart task</code></pre>
 
+<p>重启进程<br />
+<p>主控重启<br />
+<pre><code class="hljs">supervisorctl -c /opt/cdnfly/master/conf/supervisord.conf restart all</code></pre>
+<p>节点重启<br />
+<pre><code class="hljs">supervisorctl -c /opt/cdnfly/master/conf/supervisord.conf restart all</code></pre>
+supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart all
+
 <p>Cdnfly监控设置<br />
 尊敬的cdnfly用户:<br />
 为防止重启节点，Nginx服务启动不起来，可以在节点Tcp监控设置里面把主IP的监控端口设置为5000<br />
