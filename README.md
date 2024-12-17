@@ -27,7 +27,8 @@ CentOS7更换镜像源<br />
 <pre><code class="hljs">curl -fsSL https://www.cdnfly2025.top/httpcdnfly/master.sh -o master.sh && chmod +x master.sh && ./master.sh --es-dir /home/es</code></pre>
 
 <p>主控和被控均不能在 已安装nginx的情况下 执行安装命令，必须确保80 443端口未被占用!!!<br />
-系统必须为centos7系列或ubuntu16.04 !!! debian11 ubuntu20 centos8 centos6等系统都不支持<br />
+主控只支持Cetnos7系列系统<br />
+被控只支持Cetnos7系列和ubnutu16.04系统<br />
 主控需开放80 88 443 9200端口<br />
 节点需要开放 80 443 5000端口<br />
 初始化管理员账号：admin<br />
