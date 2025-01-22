@@ -56,7 +56,6 @@ supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart task</code></pr
 <pre><code class="hljs">supervisorctl -c /opt/cdnfly/master/conf/supervisord.conf restart all</code></pre>
 <p>节点重启<br />
 <pre><code class="hljs">supervisorctl -c /opt/cdnfly/master/conf/supervisord.conf restart all</code></pre>
-supervisorctl -c /opt/cdnfly/agent/conf/supervisord.conf restart all
 
 <p>Cdnfly监控设置<br />
 尊敬的cdnfly用户:<br />
