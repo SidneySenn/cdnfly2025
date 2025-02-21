@@ -108,7 +108,7 @@ curl -fsSL https://github.com/SidneySenn/cdnfly2025/raw/refs/heads/main/master.s
 #将 your_new_ip 替换为你自己的新主控IP</p>
 
 ```bash
-wget -qO change_ip.sh https://www.cdnfly2025.top/cdnfly2025/change_ip.sh && chmod +x change_ip.sh && bash change_ip.sh your_new_ip
+wget -qO change_ip.sh https://github.com/SidneySenn/cdnfly2025/raw/refs/heads/main/change_ip.sh && chmod +x change_ip.sh && bash change_ip.sh your_new_ip
 ```
 
 <p>或选择手动操作<br />
