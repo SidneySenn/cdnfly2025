@@ -103,7 +103,7 @@ reboot
 ```
 <p>然后等个十几分钟装好后,账号：root,密码：123@@@</p>
 
-<p>安装cdnfly控制面板<br />
+## 安装cdnfly控制面板
 
 ```bash
 curl -fsSL https://github.com/SidneySenn/cdnfly2025/raw/refs/heads/main/master.sh -o master.sh && chmod +x master.sh && ./master.sh --es-dir /home/es
