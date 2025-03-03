@@ -88,6 +88,21 @@ yum -y update
 
 <p>执行完上面三行命令就好了</p>
 
+## DD镜像Ubnutu16.04
+
+```bash
+curl -O https://raw.githubusercontent.com/bin456789/reinstall/main/reinstall.sh 
+```
+
+```bash
+bash reinstall.sh ubuntu 16.04
+```
+
+```bash
+reboot
+```
+<p>然后等个十几分钟装好后,账号：root,密码：123@@@</p>
+
 <p>安装cdnfly控制面板<br />
 
 ```bash
